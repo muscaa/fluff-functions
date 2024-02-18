@@ -1,0 +1,7 @@
+package fluff.functions.gen._byte._boolean._long;
+
+@FunctionalInterface
+public interface ByteFunc3ByteBooleanLong {
+	
+	byte invoke(byte p1, boolean p2, long p3);
+}

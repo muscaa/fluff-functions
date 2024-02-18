@@ -1,0 +1,7 @@
+package fluff.functions.gen._int._byte;
+
+@FunctionalInterface
+public interface ShortFunc2IntByte {
+	
+	short invoke(int p1, byte p2);
+}

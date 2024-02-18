@@ -1,0 +1,7 @@
+package fluff.functions.gen._int._char._boolean;
+
+@FunctionalInterface
+public interface VoidFunc3IntCharBoolean {
+	
+	void invoke(int p1, char p2, boolean p3);
+}

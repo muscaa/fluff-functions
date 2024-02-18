@@ -1,0 +1,7 @@
+package fluff.functions.gen._double._boolean._double;
+
+@FunctionalInterface
+public interface ShortFunc3DoubleBooleanDouble {
+	
+	short invoke(double p1, boolean p2, double p3);
+}

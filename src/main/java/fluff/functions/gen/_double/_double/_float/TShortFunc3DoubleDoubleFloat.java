@@ -1,0 +1,7 @@
+package fluff.functions.gen._double._double._float;
+
+@FunctionalInterface
+public interface TShortFunc3DoubleDoubleFloat<T extends Throwable> {
+	
+	short invoke(double p1, double p2, float p3) throws T;
+}

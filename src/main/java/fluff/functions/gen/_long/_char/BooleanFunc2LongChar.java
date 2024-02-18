@@ -1,0 +1,7 @@
+package fluff.functions.gen._long._char;
+
+@FunctionalInterface
+public interface BooleanFunc2LongChar {
+	
+	boolean invoke(long p1, char p2);
+}

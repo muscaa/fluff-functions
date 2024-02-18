@@ -1,0 +1,7 @@
+package fluff.functions.gen._char.obj._char;
+
+@FunctionalInterface
+public interface TLongFunc3CharObjChar<P2, T extends Throwable> {
+	
+	long invoke(char p1, P2 p2, char p3) throws T;
+}
