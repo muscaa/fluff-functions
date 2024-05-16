@@ -4,13 +4,13 @@
 
 ## Description
 
-A library offering a wide range of function combinations, supporting both native types and generics. Whether you need functions tailored for native types or ones with generics, it has you covered.
+A library offering a wide range of function combinations, supporting both native types and generics.
 
 ## Usage
 
-To integrate it into your project, add the following dependency:
-
-**Gradle**
+<details>
+<summary>Gradle</summary>
+    
 ```gradle
 repositories {
     maven { url "https://jitpack.io" }
@@ -20,7 +20,11 @@ dependencies {
     implementation "com.github.muscaa:fluff-functions:VERSION"
 }
 ```
-**Maven**
+</details>
+
+<details>
+<summary>Maven</summary>
+    
 ```xml
 <repositories>
     <repository>
@@ -37,6 +41,8 @@ dependencies {
     </dependency>
 </dependencies>
 ```
+</details>
+
 Replace `VERSION` with the latest release available on [JitPack](https://jitpack.io/#muscaa/fluff-functions).
 
 ## Examples
