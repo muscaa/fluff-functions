@@ -1,6 +1,7 @@
 # Fluff Functions
 
-[![](https://jitpack.io/v/muscaa/fluff-functions.svg)](https://jitpack.io/#muscaa/fluff-functions) [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![](https://jitpack.io/v/muscaa/fluff-functions.svg)](https://jitpack.io/#muscaa/fluff-functions)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
 
@@ -53,7 +54,7 @@ VoidFunc f1 = () -> System.out.println("Hello World!");
 f1.invoke();
 
 // String return, String parameter function
-Func1<String ,String> f2 = s -> s + " There!";
+Func1<String, String> f2 = s -> s + " There!";
 String str = f2.invoke("Hello");
 
 // int return, String and boolean parameters function, which throws an Exception
