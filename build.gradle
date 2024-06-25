@@ -4,9 +4,9 @@ plugins {
 
 fluff {
 	include = [
-    "LICENSE": "META-INF/LICENSE",
-    "NOTICE": "META-INF/NOTICE"
- ]
+	    "LICENSE": "META-INF/LICENSE",
+	    "NOTICE": "META-INF/NOTICE"
+	]
 }
 
 repositories {
